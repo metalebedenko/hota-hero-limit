@@ -1,0 +1,5 @@
+LIBRARY HeroLim
+EXPORTS
+    GetFileVersionInfoA=VERSION.GetFileVersionInfoA
+    GetFileVersionInfoSizeA=VERSION.GetFileVersionInfoSizeA
+    VerQueryValueA=VERSION.VerQueryValueA

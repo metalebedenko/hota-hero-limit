@@ -1,0 +1,21 @@
+Ручная установка Hero Limit для HotA 1.8.1
+
+1. Скопируйте HeroLim.dll и HeroLimit.ini рядом с h3hota HD.exe.
+2. Из папки архива запустите скрипт с путём к h3hota HD.exe.
+   На macOS или Linux с Python 3
+
+       python3 make_hero_limit_launcher.py "/путь/к/HotA/h3hota HD.exe"
+
+   На Windows с Python 3
+
+       py -3 make_hero_limit_launcher.py "C:\Games\HotA\h3hota HD.exe"
+
+3. Запустите получившийся в папке игры h3hota HeroLimit.exe.
+
+Скрипт берёт ваш h3hota HD.exe и создаёт отдельный файл, который при запуске
+загружает HeroLim.dll. Исходный h3hota HD.exe можно по-прежнему открывать
+для обычной игры. Версия HD Mod свободная, а совместимость функций
+проверяется при запуске мода.
+
+Для Windows без Python есть готовый HeroLimitSetup.exe в обычном архиве.
+Полные правила и состояние сборки приведены в INSTALL.txt.
